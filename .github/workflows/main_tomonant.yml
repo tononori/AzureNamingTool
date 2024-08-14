@@ -61,5 +61,6 @@ jobs:
         with:
           app-name: 'tomonant'
           slot-name: 'Production'
+          publish-profile: ${{ secrets.AZURESECRETS }}
           package: .
           
